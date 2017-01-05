@@ -1,0 +1,1 @@
+Warning: Coupon is either invalid, expired or reached it's usage limit!
