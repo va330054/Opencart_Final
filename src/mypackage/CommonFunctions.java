@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class CommonFunctions {
-
+ 
 	public WebDriver driver; 
 	public String URL="http://10.207.182.108:81/opencart/";		//localhost: http://10.207.182.108:81/opencart/
 
