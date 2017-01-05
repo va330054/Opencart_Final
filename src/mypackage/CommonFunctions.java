@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class CommonFunctions {
 
 	public WebDriver driver; 
-	public String URL="http://localhost/opencart/";		//localhost: http://10.207.182.108:81/opencart/
+	public String URL="http://10.207.182.108:81/opencart/";		//localhost: http://10.207.182.108:81/opencart/
 
 	public void login() throws InterruptedException{
 		System.setProperty("Webdriver.chrome.driver", "chromedriver.exe");	
