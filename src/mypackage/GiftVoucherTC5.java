@@ -160,8 +160,7 @@ else{
 }
 
 driver.findElement(By.xpath(".//*[@id='content']/div[3]/ul/li[4]/a")).click();
-
-
+Thread.sleep(1000);
 driver.findElement(By.xpath(".//*[@id='content']/div[2]/div[3]/div[3]/a/img")).click();
 boolean returnid=driver.findElement(By.xpath(".//*[@id='content']/table[2]/tbody/tr/td[1]")).isDisplayed();
 if (returnid==true){
@@ -181,9 +180,10 @@ FileWriter writer = new FileWriter(fileo);
 writer.write(orderid);
 writer.flush();
 writer.close();
-
+Thread.sleep(1000);                           
 driver.findElement(By.xpath(".//*[@id='content']/div[2]/div/a")).click();
-driver.findElement(By.xpath(".//*[@id='content']/div[10]/div/a")).click();
+Thread.sleep(1000); 
+driver.findElement(By.xpath(".//*[@id='content']/div[13]/div/a")).click();
 
 
 boolean modifyAddlink=driver.findElement(By.xpath(".//*[@id='content']/div[2]/ul/li[3]/a")).isDisplayed();
